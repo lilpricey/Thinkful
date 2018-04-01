@@ -122,3 +122,20 @@ Based on these numbers, what percentage of adult Americans would you estimate we
 ### se = 3.95 
 
 ### 16.25% are fans with a standard error of 3.95%. In other words 20.2% - 12.3% is the predicted range of people who are fans.
+
+```
+brady = [20, 23, 17, 5]
+
+print(np.mean(brady))
+print(statistics.median(brady))
+print(mode(brady))
+print(np.var(brady))
+print(np.std(brady))
+print(np.std(brady) / np.sqrt(len(brady)))
+16.25
+18.5
+[5, 17, 20, 23]
+46.6875
+6.83282518436
+3.41641259218
+```
